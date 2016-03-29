@@ -13,18 +13,18 @@
 	sudo gem install hologram
 ```
 
-> If the following error comes up, mkmf.rb can't find header files for ruby at /usr/lib/ruby/ include/ruby.h … failed...
->
-> try this first:
->
+If the following error comes up, mkmf.rb can't find header files for ruby at /usr/lib/ruby/ include/ruby.h … failed...
+
+ try this first:
+
 ```
 	gcc --version
 ```
->
-> once prompted to install developer tools, click “install” and this should resolve it
->
-> then try this again:
->
+
+ once prompted to install developer tools, click “install” and this should resolve it
+
+ then try this again:
+
 ```
 sudo gem install hologram
 ```
@@ -35,7 +35,7 @@ sudo gem install hologram
 	hologram init
 ```
 
-> This creates a _hologram_config.yml_ file as well as some template files…
+_This creates a hologram_config.yml file as well as some template files…_
 
 4. Open up the _hologram_config.yml_ file and make updates:
 
