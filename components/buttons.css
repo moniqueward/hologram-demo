@@ -1,0 +1,48 @@
+/*doc
+---
+title: Buttons
+name: button
+category: Components
+---
+
+Button styles can be applied to any element. Typically you'll want
+to use either a `<button>` or an `<a>` element:
+
+```html_example
+
+<button>Click me</button>
+
+```
+
+If you would like to add a little color, try these:
+
+```html_example
+
+<button class="red">Quit</button> <button class="green">Submit</button>
+
+```
+
+If your button is actually a link to another page, please use the
+`<a>` element, while if your button performs an action, such as
+submitting a form or triggering some javascript event, then use a
+`<button>` element.
+
+*/
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button.green {
+  background-color: #31ad00;
+  border: 1px solid #268500;
+  color: white;
+}
+
+button.red {
+  background-color: #f00;
+  border: 1px solid #a30000;
+  color: white;
+}

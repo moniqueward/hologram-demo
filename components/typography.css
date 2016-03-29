@@ -1,0 +1,44 @@
+/*doc
+---
+title: Typography
+name: typography
+category: Base CSS
+---
+
+Here are some details about Typography.
+
+```html_example_table
+
+<h1>h1 36px</h1>
+
+<h2>h2 25px</h2>
+
+<h3>h3 20px</h3>
+
+<h4>h4 18px</h4>
+
+<h5>h5 16px</h5>
+
+```
+
+*/
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+h4{
+  font-size: 18px;
+}
+
+h5{
+  font-size: 16px;
+}
