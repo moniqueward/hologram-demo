@@ -5,26 +5,17 @@
 	git clone https://github.com/trulia/hologram
 
 	cd hologram
-
 ```
 
 2. Open up the Gemfile and add this line: `gem 'hologram’` then run:
 ```
 	sudo gem install hologram
 ```
-
-If the following error comes up, mkmf.rb can't find header files for ruby at /usr/lib/ruby/ include/ruby.h … failed...
-
- try this first:
-
+  If the following error comes up, "mkmf.rb can't find header files for ruby at /usr/lib/ruby/ include/ruby.h … failed..." try this first:
 ```
 	gcc --version
 ```
-
- once prompted to install developer tools, click “install” and this should resolve it
-
- then try this again:
-
+  Once prompted to install developer tools, click “install” and this should resolve it, then try this again:
 ```
 sudo gem install hologram
 ```
